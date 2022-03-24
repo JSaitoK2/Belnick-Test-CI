@@ -1,9 +1,19 @@
 {
-    "orgName": "TestSupport-JS",
-    "edition": "Developer",
+    "orgName": "Acme",
+    "edition": "Enterprise",
+    "features": ["Communities", "ServiceCloud", "Chatbot"],
     "settings": {
-        "lightningExperienceSettings": {
-            "enableS1DesktopEnabled": true
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true
+        },
+        "caseSettings": {
+            "systemUserEmail": "support@acme.com"
         }
     }
-}
+  }
