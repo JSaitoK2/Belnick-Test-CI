@@ -1,22 +1,9 @@
 {
-    "orgName": "Acme",
-    "edition": "Enterprise",
-    "features": ["Communities", "ServiceCloud"],
+    "orgName": "TestSupport",
+    "edition": "Developer",
     "settings": {
-        "communitiesSettings": {
-            "enableNetworksEnabled": true
-        },
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
-        },
-        "mobileSettings": {
-            "enableS1EncryptedStoragePref2": true
-        },
-        "omniChannelSettings": {
-            "enableOmniChannel": true
-        },
-        "caseSettings": {
-            "systemUserEmail": "support@acme.com"
         }
     }
-  }
+}
